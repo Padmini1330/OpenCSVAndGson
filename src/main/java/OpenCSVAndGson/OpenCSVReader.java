@@ -13,7 +13,7 @@ public class OpenCSVReader
     
 	 public static final String CSV_FILE_PATH="./users.csv";
 
-	    public static void main(String[] args)throws IOException
+	    public static void main(String[] args) throws IOException
 	    {
 	    	try (
 	    		Reader reader=Files.newBufferedReader(Paths.get(CSV_FILE_PATH));
