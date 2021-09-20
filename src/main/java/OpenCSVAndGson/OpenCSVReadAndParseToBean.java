@@ -25,7 +25,8 @@ public class OpenCSVReadAndParseToBean
 								.build();
 			
 			Iterator<CSVUser> csvUserIterator=csvToBean.iterator();
-			while(csvUserIterator.hasNext()) {
+			while(csvUserIterator.hasNext()) 
+			{
 				CSVUser	csvUser=csvUserIterator.next();
 				System.out.println("Name: "+ csvUser.getName());
 				System.out.println("Email: "+ csvUser.getEmail());
